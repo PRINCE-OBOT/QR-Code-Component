@@ -1,0 +1,62 @@
+* {
+  font-family: outfit, sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background: hsl(212, 45%, 89%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 320px;
+  height: 499px;
+  padding: 16px 16px 40px 16px;
+  background: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+}
+.qr-code-container .qr-code {
+  width: 288px;
+  height: 288px;
+  border-radius: 10px;
+}
+.text-container {
+  width: 288px;
+  height: 131px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+}
+.front-end-skill {
+  font-weight: 700;
+  line-height: 120%;
+}
+.scan-qr-code {
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  line-height: 140%;
+}
+
+@media (max-width: 400px) and (min-width: 300px) {
+  .container {
+    width: 320px;
+    height: 499px;
+    padding: 16px;
+  }
+  .qr-code-container .qr-code {
+    width: 288px;
+    height: 288px;
+  }
+  .text-container {
+    width: 288px;
+    height: 288px;
+    padding: 16px;
+  }
+}
