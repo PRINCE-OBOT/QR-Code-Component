@@ -1,6 +1,8 @@
 * {
   font-family: outfit, sans-serif;
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 body {
   background: hsl(212, 45%, 89%);
@@ -37,14 +39,18 @@ body {
 .front-end-skill {
   font-weight: 700;
   line-height: 120%;
+  color: hsl(218, 44%, 22%);
+  font-size: 22px;
 }
 .scan-qr-code {
   font-weight: 400;
   letter-spacing: 0.2px;
   line-height: 140%;
+  color:  hsl(216, 15%, 48%);
+  font-size: 15px;
 }
 
-@media (max-width: 400px) and (min-width: 300px) {
+@media (max-width: 360px) and (min-width: 300px) {
   .container {
     width: 320px;
     height: 499px;
