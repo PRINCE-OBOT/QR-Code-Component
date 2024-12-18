@@ -12,7 +12,7 @@ I enjoyed working on this challenge as it allowed me to practice using figma fro
 
 ### Screenshot
 
-(./images/QR-code-Screenshot.png)
+[screenshot](./images/QR-code-Screenshot.png)
 
 ### Links
 
